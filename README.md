@@ -1,4 +1,4 @@
-# ergodox_infinity
+# Ergodox infinity
 Scripts for the ergodox infinity'
 
 Screen Demo
