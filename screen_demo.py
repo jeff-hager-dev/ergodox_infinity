@@ -34,7 +34,7 @@ def logo(array, ser):
 			val1 = array[y * 128 + 2 * x]
 			val2 = array[y * 128 + 2 * x + 1]
 			# If any of those bytes is non-zero, we print it
- 			if val1 != 0 or val2 != 0:
+			if val1 != 0 or val2 != 0:
 				command = "lcdDisp "  + hex(y) + " " + hex(2 * x) + " " + hex(val1) + " " + hex(val2) + " \r"
 				ser.write(bytes(command.encode('ascii')));
 				sleep(0.03);
